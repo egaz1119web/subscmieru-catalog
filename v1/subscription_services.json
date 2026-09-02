@@ -1,0 +1,4934 @@
+{
+  "schemaVersion": 1,
+  "version": 6,
+  "updatedAt": "2026-08-29",
+  "services": [
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "category": "VIDEO",
+      "domain": "netflix.com",
+      "packageName": "com.netflix.mediaclient",
+      "plans": [
+        {
+          "name": "広告つきスタンダード",
+          "price": 890,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "スタンダード",
+          "price": 1590,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "プレミアム",
+          "price": 2290,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "prime_video",
+      "name": "Amazonプライム・ビデオ",
+      "category": "VIDEO",
+      "domain": "primevideo.com",
+      "packageName": "com.amazon.avod.thirdpartyclient",
+      "plans": [
+        {
+          "name": "月間プラン",
+          "price": 600,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "年間プラン",
+          "price": 5900,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "disney_plus",
+      "name": "Disney+",
+      "category": "VIDEO",
+      "domain": "disneyplus.com",
+      "packageName": "com.disney.disneyplus",
+      "plans": [
+        {
+          "name": "スタンダード",
+          "price": 1250,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "プレミアム",
+          "price": 1670,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "スタンダード(年額)",
+          "price": 12500,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "u_next",
+      "name": "U-NEXT",
+      "category": "VIDEO",
+      "domain": "video.unext.jp",
+      "packageName": "jp.unext",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 2189,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "category": "VIDEO",
+      "domain": "hulu.jp",
+      "packageName": "jp.happyon.android",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 1026,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "youtube_premium",
+      "name": "YouTube Premium",
+      "category": "VIDEO",
+      "domain": "youtube.com",
+      "packageName": "com.google.android.youtube",
+      "plans": [
+        {
+          "name": "個人",
+          "price": 1280,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "ファミリー",
+          "price": 2280,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "個人(年額)",
+          "price": 12800,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "dazn",
+      "name": "DAZN",
+      "category": "VIDEO",
+      "domain": "dazn.com",
+      "packageName": "com.dazn",
+      "plans": [
+        {
+          "name": "スタンダード",
+          "price": 4200,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "スタンダード(年額一括)",
+          "price": 32000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "abema_premium",
+      "name": "ABEMAプレミアム",
+      "category": "VIDEO",
+      "domain": "abema.tv",
+      "packageName": "tv.abema",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 1180,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "apple_tv_plus",
+      "name": "Apple TV+",
+      "category": "VIDEO",
+      "domain": "tv.apple.com",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 1200,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "crunchyroll",
+      "name": "Crunchyroll",
+      "category": "VIDEO",
+      "domain": "crunchyroll.com",
+      "packageName": "com.crunchyroll.crunchyroid",
+      "plans": [
+        {
+          "name": "ファン",
+          "price": 1180,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "telasa",
+      "name": "TELASA",
+      "category": "VIDEO",
+      "domain": "telasa.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 990,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "rakuten_tv",
+      "name": "Rakuten TV",
+      "category": "VIDEO",
+      "domain": "tv.rakuten.co.jp",
+      "plans": [
+        {
+          "name": "パ・リーグSpecial",
+          "price": 702,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "パ・リーグSpecial(年額)",
+          "price": 5602,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "d_anime_store",
+      "name": "dアニメストア",
+      "category": "VIDEO",
+      "domain": "animestore.docomo.ne.jp",
+      "packageName": "com.nttdocomo.android.danimestore",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 660,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "wowow_on_demand",
+      "name": "WOWOWオンデマンド",
+      "category": "VIDEO",
+      "domain": "wowow.co.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 2530,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "lemino",
+      "name": "Lemino",
+      "category": "VIDEO",
+      "domain": "lemino.docomo.ne.jp",
+      "packageName": "com.nttdocomo.android.lemino",
+      "plans": [
+        {
+          "name": "プレミアム",
+          "price": 1540,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "niconico_premium",
+      "name": "ニコニコプレミアム",
+      "category": "VIDEO",
+      "domain": "nicovideo.jp",
+      "packageName": "jp.nicovideo.android",
+      "plans": [
+        {
+          "name": "プレミアム",
+          "price": 990,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify Premium",
+      "category": "MUSIC",
+      "domain": "spotify.com",
+      "packageName": "com.spotify.music",
+      "plans": [
+        {
+          "name": "Standard",
+          "price": 1080,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "Duo",
+          "price": 1480,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "ファミリー",
+          "price": 1880,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "apple_music",
+      "name": "Apple Music",
+      "category": "MUSIC",
+      "domain": "music.apple.com",
+      "packageName": "com.apple.android.music",
+      "plans": [
+        {
+          "name": "個人",
+          "price": 1180,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "ファミリー",
+          "price": 1980,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "個人(年額)",
+          "price": 10800,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "amazon_music_unlimited",
+      "name": "Amazon Music Unlimited",
+      "category": "MUSIC",
+      "domain": "music.amazon.co.jp",
+      "packageName": "com.amazon.mp3",
+      "plans": [
+        {
+          "name": "個人",
+          "price": 1180,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "個人(プライム会員)",
+          "price": 1080,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "youtube_music",
+      "name": "YouTube Music Premium",
+      "category": "MUSIC",
+      "domain": "music.youtube.com",
+      "packageName": "com.google.android.apps.youtube.music",
+      "plans": [
+        {
+          "name": "個人",
+          "price": 1080,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "line_music",
+      "name": "LINE MUSIC",
+      "category": "MUSIC",
+      "domain": "music.line.me",
+      "packageName": "jp.linecorp.linemusic.android",
+      "plans": [
+        {
+          "name": "一般",
+          "price": 1080,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "学生",
+          "price": 580,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "awa",
+      "name": "AWA",
+      "category": "MUSIC",
+      "domain": "awa.fm",
+      "packageName": "fm.awa.liverpool",
+      "plans": [
+        {
+          "name": "Standard",
+          "price": 980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt_plus",
+      "name": "ChatGPT Plus",
+      "category": "AI",
+      "domain": "chatgpt.com",
+      "packageName": "com.openai.chatgpt",
+      "plans": [
+        {
+          "name": "Plus",
+          "price": 2000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "claude_pro",
+      "name": "Claude Pro",
+      "category": "AI",
+      "domain": "claude.ai",
+      "packageName": "com.anthropic.claude",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        },
+        {
+          "name": "Pro(年額)",
+          "price": 20000,
+          "cycle": "YEARLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "google_ai_pro",
+      "name": "Google Gemini",
+      "category": "AI",
+      "domain": "gemini.google.com",
+      "packageName": "com.google.android.apps.bard",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2900,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "Plus",
+          "price": 725,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "github_copilot",
+      "name": "GitHub Copilot Pro",
+      "category": "AI",
+      "domain": "github.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 1000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        },
+        {
+          "name": "Pro(年額)",
+          "price": 10000,
+          "cycle": "YEARLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "perplexity_pro",
+      "name": "Perplexity Pro",
+      "category": "AI",
+      "domain": "perplexity.ai",
+      "packageName": "ai.perplexity.app.android",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "category": "AI",
+      "domain": "cursor.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "category": "AI",
+      "domain": "midjourney.com",
+      "plans": [
+        {
+          "name": "Basic",
+          "price": 1000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        },
+        {
+          "name": "Standard",
+          "price": 3000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "category": "AI",
+      "domain": "runwayml.com",
+      "plans": [
+        {
+          "name": "Standard",
+          "price": 1500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "category": "AI",
+      "domain": "elevenlabs.io",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": 600,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        },
+        {
+          "name": "Creator",
+          "price": 2200,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "v0_by_vercel",
+      "name": "v0 by Vercel",
+      "category": "AI",
+      "domain": "v0.dev",
+      "plans": [
+        {
+          "name": "Premium",
+          "price": 2000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "category": "AI",
+      "domain": "suno.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 1000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "genspark",
+      "name": "Genspark",
+      "category": "AI",
+      "domain": "genspark.ai",
+      "plans": [
+        {
+          "name": "Plus",
+          "price": 2500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "higgsfield",
+      "name": "Higgsfield",
+      "category": "AI",
+      "domain": "higgsfield.ai",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "typeless",
+      "name": "Typeless",
+      "category": "AI",
+      "domain": "typeless.ai",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 3000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        },
+        {
+          "name": "Pro(年額)",
+          "price": 14400,
+          "cycle": "YEARLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "jasper",
+      "name": "Jasper",
+      "category": "AI",
+      "domain": "jasper.ai",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 6900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "copy_ai",
+      "name": "Copy.ai",
+      "category": "AI",
+      "domain": "copy.ai",
+      "plans": [
+        {
+          "name": "Chat",
+          "price": 2900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "category": "TOOLS",
+      "domain": "notion.so",
+      "packageName": "notion.id",
+      "plans": [
+        {
+          "name": "プラス",
+          "price": 2000,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "ビジネス",
+          "price": 3800,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "money_forward_me",
+      "name": "マネーフォワード ME",
+      "category": "TOOLS",
+      "domain": "moneyforward.com",
+      "packageName": "com.moneyforward.android.app",
+      "plans": [
+        {
+          "name": "プレミアム",
+          "price": 540,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "プレミアム(年額)",
+          "price": 5940,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "category": "TOOLS",
+      "domain": "slack.com",
+      "packageName": "com.Slack",
+      "plans": [
+        {
+          "name": "プロ",
+          "price": 1050,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "category": "TOOLS",
+      "domain": "zoom.us",
+      "packageName": "us.zoom.videomeetings",
+      "plans": [
+        {
+          "name": "プロ",
+          "price": 2200,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "zaim",
+      "name": "Zaim",
+      "category": "TOOLS",
+      "domain": "zaim.net",
+      "packageName": "net.zaim.android",
+      "plans": [
+        {
+          "name": "プレミアム",
+          "price": 480,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "プレミアム(年額)",
+          "price": 4800,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "one_password",
+      "name": "1Password",
+      "category": "TOOLS",
+      "domain": "1password.com",
+      "packageName": "com.onepassword.android",
+      "plans": [
+        {
+          "name": "Individual",
+          "price": 399,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        },
+        {
+          "name": "ファミリー",
+          "price": 599,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "category": "TOOLS",
+      "domain": "todoist.com",
+      "packageName": "com.todoist",
+      "plans": [
+        {
+          "name": "プロ",
+          "price": 894,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "raycast",
+      "name": "Raycast",
+      "category": "TOOLS",
+      "domain": "raycast.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 800,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "x_premium",
+      "name": "X Premium",
+      "category": "TOOLS",
+      "domain": "x.com",
+      "packageName": "com.twitter.android",
+      "plans": [
+        {
+          "name": "プレミアム",
+          "price": 980,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "プレミアムプラス",
+          "price": 6080,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "deepl_pro",
+      "name": "DeepL Pro",
+      "category": "TOOLS",
+      "domain": "deepl.com",
+      "packageName": "com.deepl.mobiletranslator",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": 1150,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "category": "TOOLS",
+      "domain": "grammarly.com",
+      "packageName": "com.grammarly.android.keyboard",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 1800,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "obsidian_sync",
+      "name": "Obsidian Sync",
+      "category": "TOOLS",
+      "domain": "obsidian.md",
+      "packageName": "md.obsidian",
+      "plans": [
+        {
+          "name": "Sync",
+          "price": 500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "evernote",
+      "name": "Evernote",
+      "category": "TOOLS",
+      "domain": "evernote.com",
+      "packageName": "com.evernote",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": 1100,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "Advanced",
+          "price": 1799,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "category": "TOOLS",
+      "domain": "miro.com",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": 1200,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "category": "TOOLS",
+      "domain": "bitwarden.com",
+      "packageName": "com.x8bit.bitwarden",
+      "plans": [
+        {
+          "name": "Premium(年額)",
+          "price": 1980,
+          "cycle": "YEARLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "nordvpn",
+      "name": "NordVPN",
+      "category": "TOOLS",
+      "domain": "nordvpn.com",
+      "packageName": "com.nordvpn.android",
+      "plans": [
+        {
+          "name": "ベーシック",
+          "price": 1590,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "expressvpn",
+      "name": "ExpressVPN",
+      "category": "TOOLS",
+      "domain": "expressvpn.com",
+      "packageName": "com.expressvpn.vpn",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 1900,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "category": "TOOLS",
+      "domain": "linear.app",
+      "plans": [
+        {
+          "name": "Basic",
+          "price": 1000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "discord_nitro",
+      "name": "Discord Nitro",
+      "category": "TOOLS",
+      "domain": "discord.com",
+      "packageName": "com.discord",
+      "plans": [
+        {
+          "name": "Nitro Basic",
+          "price": 350,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "Nitro",
+          "price": 1050,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "category": "TOOLS",
+      "domain": "medium.com",
+      "packageName": "com.medium.reader",
+      "plans": [
+        {
+          "name": "メンバーシップ",
+          "price": 750,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "substack",
+      "name": "Substack",
+      "category": "TOOLS",
+      "domain": "substack.com",
+      "packageName": "com.substack.app",
+      "plans": [
+        {
+          "name": "購読(目安)",
+          "price": 800,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "icloud_plus",
+      "name": "iCloud+",
+      "category": "STORAGE",
+      "domain": "icloud.com",
+      "plans": [
+        {
+          "name": "50GB",
+          "price": 180,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "200GB",
+          "price": 540,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "2TB",
+          "price": 1800,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "google_one",
+      "name": "Google One",
+      "category": "STORAGE",
+      "domain": "one.google.com",
+      "packageName": "com.google.android.apps.subscriptions.red",
+      "plans": [
+        {
+          "name": "ベーシック 100GB",
+          "price": 290,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "ベーシック 100GB(年額)",
+          "price": 2500,
+          "cycle": "YEARLY"
+        },
+        {
+          "name": "プレミアム 2TB",
+          "price": 1450,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "dropbox_plus",
+      "name": "Dropbox Plus",
+      "category": "STORAGE",
+      "domain": "dropbox.com",
+      "packageName": "com.dropbox.android",
+      "plans": [
+        {
+          "name": "月間プラン",
+          "price": 1500,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "年間プラン",
+          "price": 14400,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "microsoft_365_basic",
+      "name": "Microsoft 365",
+      "category": "STORAGE",
+      "domain": "microsoft.com",
+      "packageName": "com.microsoft.office.officehubrow",
+      "plans": [
+        {
+          "name": "Basic(月間)",
+          "price": 260,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "Basic(年間)",
+          "price": 2440,
+          "cycle": "YEARLY"
+        },
+        {
+          "name": "Personal(月間)",
+          "price": 2130,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "Personal(年間)",
+          "price": 21300,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "github_pro",
+      "name": "GitHub Pro",
+      "category": "DEV",
+      "domain": "github.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 400,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "jetbrains_all_products",
+      "name": "JetBrains All Products",
+      "category": "DEV",
+      "domain": "jetbrains.com",
+      "plans": [
+        {
+          "name": "All Products Pack",
+          "price": 2900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "category": "DEV",
+      "domain": "vercel.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "category": "DEV",
+      "domain": "supabase.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "heroku",
+      "name": "Heroku",
+      "category": "DEV",
+      "domain": "heroku.com",
+      "plans": [
+        {
+          "name": "Eco",
+          "price": 500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        },
+        {
+          "name": "Basic",
+          "price": 700,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "category": "DEV",
+      "domain": "cloudflare.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "category": "DEV",
+      "domain": "netlify.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "railway",
+      "name": "Railway",
+      "category": "DEV",
+      "domain": "railway.com",
+      "plans": [
+        {
+          "name": "Hobby",
+          "price": 500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "category": "DEV",
+      "domain": "docker.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab",
+      "category": "DEV",
+      "domain": "gitlab.com",
+      "plans": [
+        {
+          "name": "Premium",
+          "price": 2900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "planetscale",
+      "name": "PlanetScale",
+      "category": "DEV",
+      "domain": "planetscale.com",
+      "plans": [
+        {
+          "name": "PS-5(単一ノード)",
+          "price": 500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "category": "DEV",
+      "domain": "sentry.io",
+      "plans": [
+        {
+          "name": "Team",
+          "price": 2600,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "category": "DEV",
+      "domain": "unity.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 21000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "category": "DEV",
+      "domain": "replit.com",
+      "plans": [
+        {
+          "name": "Core",
+          "price": 2000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "category": "DEV",
+      "domain": "aws.amazon.com",
+      "packageName": "com.amazon.aws.console.mobile",
+      "plans": [
+        {
+          "name": "従量課金(目安)",
+          "price": 1000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "render",
+      "name": "Render",
+      "category": "DEV",
+      "domain": "render.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "fly_io",
+      "name": "Fly.io",
+      "category": "DEV",
+      "domain": "fly.io",
+      "plans": [
+        {
+          "name": "従量課金(目安)",
+          "price": 500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "category": "DEV",
+      "domain": "neon.tech",
+      "plans": [
+        {
+          "name": "Launch",
+          "price": 1900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "upstash",
+      "name": "Upstash",
+      "category": "DEV",
+      "domain": "upstash.com",
+      "plans": [
+        {
+          "name": "従量課金(目安)",
+          "price": 500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "category": "DEV",
+      "domain": "windsurf.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "adobe_cc",
+      "name": "Adobe Creative Cloud",
+      "category": "DESIGN",
+      "domain": "adobe.com",
+      "plans": [
+        {
+          "name": "コンプリートプラン",
+          "price": 7780,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "フォトプラン",
+          "price": 1180,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "canva_pro",
+      "name": "Canva Pro",
+      "category": "DESIGN",
+      "domain": "canva.com",
+      "packageName": "com.canva.editor",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 1180,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "Pro(年額)",
+          "price": 11800,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "category": "DESIGN",
+      "domain": "figma.com",
+      "plans": [
+        {
+          "name": "プロフェッショナル",
+          "price": 1600,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "category": "DESIGN",
+      "domain": "framer.com",
+      "plans": [
+        {
+          "name": "Basic",
+          "price": 1500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "category": "DESIGN",
+      "domain": "sketch.com",
+      "plans": [
+        {
+          "name": "Standard",
+          "price": 1200,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "lottiefiles",
+      "name": "LottieFiles",
+      "category": "DESIGN",
+      "domain": "lottiefiles.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "google_workspace",
+      "name": "Google Workspace",
+      "category": "BUSINESS",
+      "domain": "workspace.google.com",
+      "plans": [
+        {
+          "name": "Business Starter",
+          "price": 950,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "Business Standard",
+          "price": 1900,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "money_forward_cloud",
+      "name": "マネーフォワード クラウド",
+      "category": "BUSINESS",
+      "domain": "biz.moneyforward.com",
+      "plans": [
+        {
+          "name": "スモールビジネス",
+          "price": 4928,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "freee",
+      "name": "freee会計",
+      "category": "BUSINESS",
+      "domain": "freee.co.jp",
+      "plans": [
+        {
+          "name": "ひとり法人",
+          "price": 4378,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "category": "BUSINESS",
+      "domain": "shopify.com",
+      "packageName": "com.shopify.mobile",
+      "plans": [
+        {
+          "name": "ベーシック",
+          "price": 4850,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "category": "BUSINESS",
+      "domain": "stripe.com",
+      "plans": [
+        {
+          "name": "月額0円+決済手数料",
+          "price": 0,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "name": "HubSpot",
+      "category": "BUSINESS",
+      "domain": "hubspot.com",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": 2400,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "mailchimp",
+      "name": "Mailchimp",
+      "category": "BUSINESS",
+      "domain": "mailchimp.com",
+      "plans": [
+        {
+          "name": "Essentials",
+          "price": 1950,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "chatwork",
+      "name": "ChatWork",
+      "category": "BUSINESS",
+      "domain": "chatwork.com",
+      "plans": [
+        {
+          "name": "スタンダード",
+          "price": 924,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "wix",
+      "name": "Wix",
+      "category": "BUSINESS",
+      "domain": "wix.com",
+      "plans": [
+        {
+          "name": "パーソナル",
+          "price": 1200,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "squarespace",
+      "name": "Squarespace",
+      "category": "BUSINESS",
+      "domain": "squarespace.com",
+      "plans": [
+        {
+          "name": "Basic",
+          "price": 2500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "note_pro",
+      "name": "note pro",
+      "category": "BUSINESS",
+      "domain": "note.com",
+      "plans": [
+        {
+          "name": "note pro",
+          "price": 80000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "linkedin_premium",
+      "name": "LinkedIn Premium",
+      "category": "BUSINESS",
+      "domain": "linkedin.com",
+      "packageName": "com.linkedin.android",
+      "plans": [
+        {
+          "name": "Career",
+          "price": 3150,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "kindle_unlimited",
+      "name": "Kindle Unlimited",
+      "category": "OTHER",
+      "domain": "amazon.co.jp",
+      "packageName": "com.amazon.kindle",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "nintendo_switch_online",
+      "name": "Nintendo Switch Online",
+      "category": "OTHER",
+      "domain": "nintendo.com",
+      "packageName": "com.nintendo.znca",
+      "plans": [
+        {
+          "name": "個人(1か月)",
+          "price": 400,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "個人(12か月)",
+          "price": 3000,
+          "cycle": "YEARLY"
+        },
+        {
+          "name": "ファミリー(12か月)",
+          "price": 5800,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "pokemon_home",
+      "name": "Pokémon HOME",
+      "category": "OTHER",
+      "domain": "home.pokemon.com",
+      "packageName": "jp.pokemon.pokemonhome",
+      "plans": [
+        {
+          "name": "プレミアムプラン(1か月)",
+          "price": 370,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "プレミアムプラン(12か月)",
+          "price": 1960,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "pokemon_champions",
+      "name": "Pokémon Champions",
+      "category": "OTHER",
+      "domain": "pokemonchampions.jp",
+      "packageName": "jp.pokemon.pokemonchampions",
+      "plans": [
+        {
+          "name": "メンバーシップ(月額)",
+          "price": 700,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "メンバーシップ(年額)",
+          "price": 7000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "playstation_plus",
+      "name": "PlayStation Plus",
+      "category": "OTHER",
+      "domain": "playstation.com",
+      "packageName": "com.scee.psxandroid",
+      "plans": [
+        {
+          "name": "エッセンシャル",
+          "price": 850,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "エッセンシャル(年額)",
+          "price": 6800,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "xbox_game_pass",
+      "name": "Xbox Game Pass",
+      "category": "OTHER",
+      "domain": "xbox.com",
+      "packageName": "com.microsoft.xboxone.smartglass",
+      "plans": [
+        {
+          "name": "Ultimate",
+          "price": 1750,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "apple_arcade",
+      "name": "Apple Arcade",
+      "category": "OTHER",
+      "domain": "apple.com",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 900,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "年額プラン",
+          "price": 6000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "audible",
+      "name": "Audible",
+      "category": "OTHER",
+      "domain": "audible.co.jp",
+      "packageName": "com.audible.application",
+      "plans": [
+        {
+          "name": "プレミアムプラン",
+          "price": 1500,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "スタンダードプラン",
+          "price": 880,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "rakuten_magazine",
+      "name": "楽天マガジン",
+      "category": "OTHER",
+      "domain": "magazine.rakuten.co.jp",
+      "packageName": "jp.co.rakuten.magazine",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 597,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "年額プラン",
+          "price": 5980,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "d_magazine",
+      "name": "dマガジン",
+      "category": "OTHER",
+      "domain": "dmagazine.docomo.ne.jp",
+      "packageName": "com.nttdocomo.android.dmagazine",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 580,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_premium",
+      "name": "pixiv Premium",
+      "category": "OTHER",
+      "domain": "pixiv.net",
+      "packageName": "jp.pxv.android",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 590,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "nikkei",
+      "name": "日経電子版",
+      "category": "OTHER",
+      "domain": "nikkei.com",
+      "packageName": "com.nikkei.newspaper",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 4277,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "newspicks",
+      "name": "NewsPicks",
+      "category": "OTHER",
+      "domain": "newspicks.com",
+      "packageName": "com.newspicks",
+      "plans": [
+        {
+          "name": "プレミアム",
+          "price": 1850,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "smartnews",
+      "name": "SmartNews+",
+      "category": "OTHER",
+      "domain": "smartnews.com",
+      "packageName": "jp.gocro.smartnews.android",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "category": "EDUCATION",
+      "domain": "udemy.com",
+      "packageName": "com.udemy.android",
+      "plans": [
+        {
+          "name": "パーソナルプラン",
+          "price": 2400,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "category": "EDUCATION",
+      "domain": "duolingo.com",
+      "packageName": "com.duolingo",
+      "plans": [
+        {
+          "name": "Super",
+          "price": 1100,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "strava",
+      "name": "Strava",
+      "category": "OTHER",
+      "domain": "strava.com",
+      "packageName": "com.strava",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 1180,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "calm",
+      "name": "Calm",
+      "category": "OTHER",
+      "domain": "calm.com",
+      "packageName": "com.calm.android",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 1480,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "年額プラン",
+          "price": 6500,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "apple_one",
+      "name": "Apple One",
+      "category": "OTHER",
+      "domain": "apple.com",
+      "plans": [
+        {
+          "name": "個人",
+          "price": 1350,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "ファミリー",
+          "price": 2500,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "fod_premium",
+      "name": "FODプレミアム",
+      "category": "VIDEO",
+      "domain": "fod.fujitv.co.jp",
+      "packageName": "jp.co.fujitv.fodviewer",
+      "plans": [
+        {
+          "name": "スタンダードコース",
+          "price": 1320,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "d_hits",
+      "name": "dヒッツ",
+      "category": "MUSIC",
+      "domain": "docomo.ne.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 690,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "rakuten_music",
+      "name": "楽天ミュージック",
+      "category": "MUSIC",
+      "domain": "music.rakuten.co.jp",
+      "plans": [
+        {
+          "name": "スタンダード",
+          "price": 980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "rakuten_premium_card",
+      "name": "楽天プレミアムカード",
+      "category": "CARD",
+      "domain": "rakuten-card.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 11000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "rakuten_gold_card",
+      "name": "楽天ゴールドカード",
+      "category": "CARD",
+      "domain": "rakuten-card.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 2200,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "smcc_gold_nl",
+      "name": "三井住友カード ゴールド(NL)",
+      "category": "CARD",
+      "domain": "smbc-card.com",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 5500,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "smcc_platinum_preferred",
+      "name": "三井住友カード プラチナプリファード",
+      "category": "CARD",
+      "domain": "smbc-card.com",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 33000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "jcb_gold",
+      "name": "JCBゴールド",
+      "category": "CARD",
+      "domain": "jcb.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 11000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "jcb_platinum",
+      "name": "JCBプラチナ",
+      "category": "CARD",
+      "domain": "jcb.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 27500,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "amex_green",
+      "name": "アメックス・グリーン",
+      "category": "CARD",
+      "domain": "americanexpress.com",
+      "plans": [
+        {
+          "name": "月会費",
+          "price": 1100,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "amex_gold_preferred",
+      "name": "アメックス・ゴールド・プリファード",
+      "category": "CARD",
+      "domain": "americanexpress.com",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 39600,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "amex_platinum",
+      "name": "アメックス・プラチナ",
+      "category": "CARD",
+      "domain": "americanexpress.com",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 165000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "dcard_gold",
+      "name": "dカード GOLD",
+      "category": "CARD",
+      "domain": "dcard.docomo.ne.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 11000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "aupay_gold_card",
+      "name": "au PAY ゴールドカード",
+      "category": "CARD",
+      "domain": "kddi-fs.com",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 11000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "epos_gold",
+      "name": "エポスゴールドカード",
+      "category": "CARD",
+      "domain": "eposcard.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 5000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "saison_gold_amex",
+      "name": "セゾンゴールド・アメックス",
+      "category": "CARD",
+      "domain": "saisoncard.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 11000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "view_gold_plus",
+      "name": "ビューカード ゴールド",
+      "category": "CARD",
+      "domain": "viewcard.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 11000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "paypay_card_gold",
+      "name": "PayPayカード ゴールド",
+      "category": "CARD",
+      "domain": "paypay-card.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 11000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "luxury_card_titanium",
+      "name": "ラグジュアリーカード(チタン)",
+      "category": "CARD",
+      "domain": "luxurycard.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 55000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "ana_card",
+      "name": "ANAカード(一般)",
+      "category": "CARD",
+      "domain": "ana.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 2200,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "jal_card",
+      "name": "JALカード(普通)",
+      "category": "CARD",
+      "domain": "jal.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 2200,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "marriott_bonvoy_amex",
+      "name": "Marriott Bonvoyアメックス・プレミアム",
+      "category": "CARD",
+      "domain": "marriott.com",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 82500,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "wealthnavi",
+      "name": "ウェルスナビ",
+      "category": "FINANCE",
+      "domain": "wealthnavi.com",
+      "plans": [
+        {
+          "name": "手数料 年1.1%(目安)",
+          "price": 1000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "theo_plus",
+      "name": "THEO+",
+      "category": "FINANCE",
+      "domain": "theo.blue",
+      "plans": [
+        {
+          "name": "手数料(目安)",
+          "price": 800,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "toranoko",
+      "name": "トラノコ",
+      "category": "FINANCE",
+      "domain": "toranoko.com",
+      "plans": [
+        {
+          "name": "月額利用料",
+          "price": 390,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "tradingview",
+      "name": "TradingView",
+      "category": "FINANCE",
+      "domain": "tradingview.com",
+      "packageName": "com.tradingview.tradingviewapp",
+      "plans": [
+        {
+          "name": "Essential",
+          "price": 1295,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        },
+        {
+          "name": "Plus",
+          "price": 2995,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "kabutan_premium",
+      "name": "株探プレミアム",
+      "category": "FINANCE",
+      "domain": "kabutan.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 2780,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "shikiho_online",
+      "name": "会社四季報オンライン",
+      "category": "FINANCE",
+      "domain": "shikiho.toyokeizai.net",
+      "plans": [
+        {
+          "name": "ベーシック",
+          "price": 1100,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "プレミアム",
+          "price": 5500,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "minkabu_premium",
+      "name": "みんかぶプレミアム",
+      "category": "FINANCE",
+      "domain": "minkabu.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 1320,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "category": "FINANCE",
+      "domain": "bloomberg.com",
+      "plans": [
+        {
+          "name": "デジタル購読",
+          "price": 4700,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "zkai",
+      "name": "Z会",
+      "category": "EDUCATION",
+      "domain": "zkai.co.jp",
+      "plans": [
+        {
+          "name": "小学生コース(目安)",
+          "price": 3672,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "中学生コース(目安)",
+          "price": 9980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "shinkenzemi_elementary",
+      "name": "進研ゼミ 小学講座",
+      "category": "EDUCATION",
+      "domain": "benesse.co.jp",
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 3250,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "shinkenzemi_junior",
+      "name": "進研ゼミ 中学講座",
+      "category": "EDUCATION",
+      "domain": "benesse.co.jp",
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 6400,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "shinkenzemi_high",
+      "name": "進研ゼミ 高校講座",
+      "category": "EDUCATION",
+      "domain": "benesse.co.jp",
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 6690,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "kodomo_challenge",
+      "name": "こどもちゃれんじ",
+      "category": "EDUCATION",
+      "domain": "benesse.co.jp",
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 2460,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "studysapuri",
+      "name": "スタディサプリ",
+      "category": "EDUCATION",
+      "domain": "studysapuri.jp",
+      "plans": [
+        {
+          "name": "ベーシック",
+          "price": 2178,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "studysapuri_english",
+      "name": "スタディサプリENGLISH",
+      "category": "EDUCATION",
+      "domain": "eigosapuri.jp",
+      "plans": [
+        {
+          "name": "新日常英会話",
+          "price": 2178,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "smile_zemi",
+      "name": "スマイルゼミ",
+      "category": "EDUCATION",
+      "domain": "smile-zemi.jp",
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 3630,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "kumon",
+      "name": "公文式",
+      "category": "EDUCATION",
+      "domain": "kumon.ne.jp",
+      "plans": [
+        {
+          "name": "1教科(目安)",
+          "price": 7700,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "kawaijuku_one",
+      "name": "河合塾One",
+      "category": "EDUCATION",
+      "domain": "kawaijukuone.co.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 4378,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "n_yobiko",
+      "name": "ZEN Study",
+      "category": "EDUCATION",
+      "domain": "nnn.ed.nico",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 1100,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "schoo",
+      "name": "Schoo",
+      "category": "EDUCATION",
+      "domain": "schoo.jp",
+      "plans": [
+        {
+          "name": "プレミアム",
+          "price": 980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "globis_manabihodai",
+      "name": "グロービス学び放題",
+      "category": "EDUCATION",
+      "domain": "hodai.globis.co.jp",
+      "plans": [
+        {
+          "name": "年間プラン",
+          "price": 20400,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "progate",
+      "name": "Progate",
+      "category": "EDUCATION",
+      "domain": "prog-8.com",
+      "plans": [
+        {
+          "name": "プラス",
+          "price": 1078,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "dotinstall",
+      "name": "ドットインストール",
+      "category": "EDUCATION",
+      "domain": "dotinstall.com",
+      "plans": [
+        {
+          "name": "プレミアム",
+          "price": 1480,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "dmm_eikaiwa",
+      "name": "DMM英会話",
+      "category": "EDUCATION",
+      "domain": "eikaiwa.dmm.com",
+      "plans": [
+        {
+          "name": "スタンダード(毎日1回)",
+          "price": 6980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "rarejob",
+      "name": "レアジョブ英会話",
+      "category": "EDUCATION",
+      "domain": "rarejob.com",
+      "plans": [
+        {
+          "name": "月8回",
+          "price": 4980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "nativecamp",
+      "name": "ネイティブキャンプ",
+      "category": "EDUCATION",
+      "domain": "nativecamp.net",
+      "plans": [
+        {
+          "name": "プレミアム",
+          "price": 7480,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "luup",
+      "name": "LUUP",
+      "category": "LIFE",
+      "domain": "luup.sc",
+      "plans": [
+        {
+          "name": "ライドパス(目安)",
+          "price": 980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "times_car",
+      "name": "タイムズカー",
+      "category": "LIFE",
+      "domain": "share.timescar.jp",
+      "plans": [
+        {
+          "name": "個人プラン",
+          "price": 880,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "kinto",
+      "name": "KINTO",
+      "category": "LIFE",
+      "domain": "kinto-jp.com",
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 45000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "chargespot",
+      "name": "ChargeSPOT Pass",
+      "category": "LIFE",
+      "domain": "chargespot.jp",
+      "plans": [
+        {
+          "name": "月額パス",
+          "price": 390,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "chocozap",
+      "name": "chocoZAP",
+      "category": "LIFE",
+      "domain": "chocozap.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 3278,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "anytime_fitness",
+      "name": "エニタイムフィットネス",
+      "category": "LIFE",
+      "domain": "anytimefitness.co.jp",
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 8800,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "nosh",
+      "name": "nosh",
+      "category": "LIFE",
+      "domain": "nosh.jp",
+      "plans": [
+        {
+          "name": "6食プラン(目安)",
+          "price": 4190,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "oisix",
+      "name": "Oisix",
+      "category": "LIFE",
+      "domain": "oisix.com",
+      "plans": [
+        {
+          "name": "定期ボックス(目安)",
+          "price": 5000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "basefood",
+      "name": "BASE FOOD",
+      "category": "LIFE",
+      "domain": "basefood.co.jp",
+      "plans": [
+        {
+          "name": "継続コース(目安)",
+          "price": 3000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "green_spoon",
+      "name": "GREEN SPOON",
+      "category": "LIFE",
+      "domain": "green-spoon.jp",
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 6000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "nhk",
+      "name": "NHK受信料",
+      "category": "LIFE",
+      "domain": "nhk.or.jp",
+      "plans": [
+        {
+          "name": "地上契約",
+          "price": 1100,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "衛星契約",
+          "price": 1950,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "ahamo",
+      "name": "ahamo",
+      "category": "LIFE",
+      "domain": "ahamo.com",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 2970,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "linemo",
+      "name": "LINEMO",
+      "category": "LIFE",
+      "domain": "linemo.jp",
+      "plans": [
+        {
+          "name": "ベストプラン",
+          "price": 990,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "ベストプランV",
+          "price": 2970,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "rakuten_mobile",
+      "name": "楽天モバイル",
+      "category": "LIFE",
+      "domain": "network.mobile.rakuten.co.jp",
+      "plans": [
+        {
+          "name": "〜3GB",
+          "price": 1078,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "無制限",
+          "price": 3278,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "yahoo_premium",
+      "name": "LYPプレミアム",
+      "category": "LIFE",
+      "domain": "premium.yahoo.co.jp",
+      "plans": [
+        {
+          "name": "スタンダードプラン",
+          "price": 508,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "mechakari",
+      "name": "メチャカリ",
+      "category": "LIFE",
+      "domain": "mechakari.com",
+      "plans": [
+        {
+          "name": "ベーシック",
+          "price": 3475,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "aircloset",
+      "name": "airCloset",
+      "category": "LIFE",
+      "domain": "air-closet.com",
+      "plans": [
+        {
+          "name": "ライト",
+          "price": 7980,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "レギュラー",
+          "price": 10980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "kurashiru_premium",
+      "name": "クラシルプレミアム",
+      "category": "LIFE",
+      "domain": "kurashiru.com",
+      "plans": [
+        {
+          "name": "プレミアム",
+          "price": 480,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "cookpad_premium",
+      "name": "クックパッド プレミアム",
+      "category": "LIFE",
+      "domain": "cookpad.com",
+      "packageName": "com.cookpad.android.activities",
+      "plans": [
+        {
+          "name": "プレミアムサービス",
+          "price": 400,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "geforce_now",
+      "name": "GeForce NOW",
+      "category": "OTHER",
+      "domain": "nvidia.com",
+      "packageName": "com.nvidia.geforcenow",
+      "plans": [
+        {
+          "name": "パフォーマンス",
+          "price": 1980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "dmm_tv",
+      "name": "DMM TV",
+      "category": "VIDEO",
+      "domain": "tv.dmm.com",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 550,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "watcha",
+      "name": "WATCHA",
+      "category": "VIDEO",
+      "domain": "watcha.com",
+      "packageName": "com.frograms.wplay",
+      "plans": [
+        {
+          "name": "ベーシック",
+          "price": 869,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "プレミアム",
+          "price": 1320,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "spotv_now",
+      "name": "SPOTV NOW",
+      "category": "VIDEO",
+      "domain": "spotvnow.jp",
+      "plans": [
+        {
+          "name": "ベーシックプラン",
+          "price": 2000,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "プレミアムプラン",
+          "price": 3000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "nhk_ondemand",
+      "name": "NHKオンデマンド",
+      "category": "VIDEO",
+      "domain": "nhk-ondemand.jp",
+      "plans": [
+        {
+          "name": "まるごと見放題パック",
+          "price": 990,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "bandai_channel",
+      "name": "バンダイチャンネル",
+      "category": "VIDEO",
+      "domain": "b-ch.com",
+      "plans": [
+        {
+          "name": "見放題",
+          "price": 1100,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "downtown_plus",
+      "name": "DOWNTOWN+",
+      "category": "VIDEO",
+      "domain": null,
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 1100,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "年額プラン",
+          "price": 11000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "plex_pass",
+      "name": "Plex Pass",
+      "category": "VIDEO",
+      "domain": "plex.tv",
+      "packageName": "com.plexapp.android",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 1050,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "vimeo",
+      "name": "Vimeo",
+      "category": "VIDEO",
+      "domain": "vimeo.com",
+      "packageName": "com.vimeo.android.videoapp",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": 1800,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "deezer",
+      "name": "Deezer",
+      "category": "MUSIC",
+      "domain": "deezer.com",
+      "packageName": "deezer.android.app",
+      "plans": [
+        {
+          "name": "Premium",
+          "price": 1280,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "tidal",
+      "name": "Tidal",
+      "category": "MUSIC",
+      "domain": "tidal.com",
+      "packageName": "com.aspiro.tidal",
+      "plans": [
+        {
+          "name": "Individual",
+          "price": 1650,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "soundcloud_go_plus",
+      "name": "SoundCloud Go+",
+      "category": "MUSIC",
+      "domain": "soundcloud.com",
+      "packageName": "com.soundcloud.android",
+      "plans": [
+        {
+          "name": "Go+",
+          "price": 1300,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "radiko_premium",
+      "name": "radikoプレミアム",
+      "category": "MUSIC",
+      "domain": "radiko.jp",
+      "packageName": "jp.radiko.Player",
+      "plans": [
+        {
+          "name": "エリアフリー",
+          "price": 385,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "aqua_voice",
+      "name": "Aqua Voice",
+      "category": "AI",
+      "domain": "withaqua.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 1000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "bolt",
+      "name": "Bolt",
+      "category": "AI",
+      "domain": "bolt.new",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "category": "AI",
+      "domain": "dify.ai",
+      "plans": [
+        {
+          "name": "Professional",
+          "price": 5900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "category": "AI",
+      "domain": "gamma.app",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 1000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "category": "AI",
+      "domain": "heygen.com",
+      "plans": [
+        {
+          "name": "Creator",
+          "price": 2900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "kling_ai",
+      "name": "Kling AI",
+      "category": "AI",
+      "domain": "klingai.com",
+      "plans": [
+        {
+          "name": "Standard",
+          "price": 1000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "leonardo_ai",
+      "name": "Leonardo AI",
+      "category": "AI",
+      "domain": "leonardo.ai",
+      "plans": [
+        {
+          "name": "Apprentice",
+          "price": 1200,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "category": "AI",
+      "domain": "lovable.dev",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "category": "AI",
+      "domain": "openrouter.ai",
+      "plans": [
+        {
+          "name": "従量課金(目安)",
+          "price": 700,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "category": "AI",
+      "domain": "pika.art",
+      "plans": [
+        {
+          "name": "Standard",
+          "price": 1000,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "replicate",
+      "name": "Replicate",
+      "category": "AI",
+      "domain": "replicate.com",
+      "plans": [
+        {
+          "name": "従量課金(目安)",
+          "price": 700,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "category": "AI",
+      "domain": null,
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 1500,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "stability_ai",
+      "name": "Stability AI",
+      "category": "AI",
+      "domain": "stability.ai",
+      "plans": [
+        {
+          "name": "Creator",
+          "price": 1900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "category": "AI",
+      "domain": "synthesia.io",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": 2900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "category": "AI",
+      "domain": "tabnine.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 1200,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable",
+      "category": "TOOLS",
+      "domain": "airtable.com",
+      "plans": [
+        {
+          "name": "Team",
+          "price": 3000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "asana",
+      "name": "Asana",
+      "category": "TOOLS",
+      "domain": "asana.com",
+      "packageName": "com.asana.app",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": 1475,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "calendly",
+      "name": "Calendly",
+      "category": "TOOLS",
+      "domain": "calendly.com",
+      "plans": [
+        {
+          "name": "Standard",
+          "price": 1800,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "clickup",
+      "name": "ClickUp",
+      "category": "TOOLS",
+      "domain": "clickup.com",
+      "plans": [
+        {
+          "name": "Unlimited",
+          "price": 1500,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "dashlane",
+      "name": "Dashlane",
+      "category": "TOOLS",
+      "domain": "dashlane.com",
+      "packageName": "com.dashlane",
+      "plans": [
+        {
+          "name": "Premium",
+          "price": 750,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "eset",
+      "name": "ESET",
+      "category": "TOOLS",
+      "domain": "eset.com",
+      "packageName": "com.eset.ems2.gp",
+      "plans": [
+        {
+          "name": "HOME セキュリティ エッセンシャル(1台・年額)",
+          "price": 4750,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "lastpass",
+      "name": "LastPass",
+      "category": "TOOLS",
+      "domain": "lastpass.com",
+      "packageName": "com.lastpass.lpandroid",
+      "plans": [
+        {
+          "name": "Premium",
+          "price": 450,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "loom",
+      "name": "Loom",
+      "category": "TOOLS",
+      "domain": "loom.com",
+      "plans": [
+        {
+          "name": "Business",
+          "price": 2250,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "make",
+      "name": "Make",
+      "category": "TOOLS",
+      "domain": "make.com",
+      "plans": [
+        {
+          "name": "Core",
+          "price": 1500,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "monday",
+      "name": "Monday.com",
+      "category": "TOOLS",
+      "domain": "monday.com",
+      "plans": [
+        {
+          "name": "Basic",
+          "price": 1350,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "mullvad_vpn",
+      "name": "Mullvad VPN",
+      "category": "TOOLS",
+      "domain": "mullvad.net",
+      "packageName": "net.mullvad.mullvadvpn",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 800,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "protonmail",
+      "name": "ProtonMail",
+      "category": "TOOLS",
+      "domain": "proton.me",
+      "packageName": "ch.protonmail.android",
+      "plans": [
+        {
+          "name": "Mail Plus",
+          "price": 800,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "protonvpn",
+      "name": "ProtonVPN",
+      "category": "TOOLS",
+      "domain": "protonvpn.com",
+      "packageName": "ch.protonvpn.android",
+      "plans": [
+        {
+          "name": "VPN Plus",
+          "price": 1600,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "surfshark",
+      "name": "Surfshark",
+      "category": "TOOLS",
+      "domain": "surfshark.com",
+      "packageName": "com.surfshark.vpnclient.android",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 2300,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "snapchat_plus",
+      "name": "Snapchat+",
+      "category": "TOOLS",
+      "domain": "snapchat.com",
+      "packageName": "com.snapchat.android",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 450,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "telegram_premium",
+      "name": "Telegram Premium",
+      "category": "TOOLS",
+      "domain": "telegram.org",
+      "packageName": "org.telegram.messenger",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 720,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "category": "TOOLS",
+      "domain": "trello.com",
+      "packageName": "com.trello",
+      "plans": [
+        {
+          "name": "Standard",
+          "price": 750,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "category": "TOOLS",
+      "domain": "zapier.com",
+      "plans": [
+        {
+          "name": "Professional",
+          "price": 3000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "backblaze",
+      "name": "Backblaze",
+      "category": "STORAGE",
+      "domain": "backblaze.com",
+      "plans": [
+        {
+          "name": "Computer Backup",
+          "price": 900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        },
+        {
+          "name": "Computer Backup(年額)",
+          "price": 9900,
+          "cycle": "YEARLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "pcloud",
+      "name": "pCloud",
+      "category": "STORAGE",
+      "domain": "pcloud.com",
+      "plans": [
+        {
+          "name": "Premium 500GB(年額)",
+          "price": 7500,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "sync_com",
+      "name": "Sync.com",
+      "category": "STORAGE",
+      "domain": "sync.com",
+      "plans": [
+        {
+          "name": "Personal 1TB",
+          "price": 1600,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        },
+        {
+          "name": "Personal 150GB",
+          "price": 400,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "apple_developer",
+      "name": "Apple Developer Program",
+      "category": "DEV",
+      "domain": "developer.apple.com",
+      "plans": [
+        {
+          "name": "年間メンバーシップ",
+          "price": 12980,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "cloudinary",
+      "name": "Cloudinary",
+      "category": "DEV",
+      "domain": "cloudinary.com",
+      "plans": [
+        {
+          "name": "Plus",
+          "price": 9900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "conoha_wing",
+      "name": "ConoHa WING",
+      "category": "DEV",
+      "domain": "conoha.jp",
+      "plans": [
+        {
+          "name": "ベーシック",
+          "price": 1452,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "datadog",
+      "name": "Datadog",
+      "category": "DEV",
+      "domain": "datadoghq.com",
+      "plans": [
+        {
+          "name": "Pro(1ホスト)",
+          "price": 1500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "logo_dev",
+      "name": "Logo.dev",
+      "category": "DEV",
+      "domain": "logo.dev",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 2900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "namecheap",
+      "name": "Namecheap",
+      "category": "DEV",
+      "domain": "namecheap.com",
+      "plans": [
+        {
+          "name": "ドメイン更新(目安・年額)",
+          "price": 1300,
+          "cycle": "YEARLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "twilio",
+      "name": "Twilio",
+      "category": "DEV",
+      "domain": "twilio.com",
+      "plans": [
+        {
+          "name": "従量課金(目安)",
+          "price": 1000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "wordpress_com",
+      "name": "WordPress.com",
+      "category": "DEV",
+      "domain": "wordpress.com",
+      "plans": [
+        {
+          "name": "パーソナル",
+          "price": 900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "xserver",
+      "name": "Xserver",
+      "category": "DEV",
+      "domain": "xserver.ne.jp",
+      "plans": [
+        {
+          "name": "スタンダード",
+          "price": 1100,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "adobe_stock",
+      "name": "Adobe Stock",
+      "category": "DESIGN",
+      "domain": "stock.adobe.com",
+      "plans": [
+        {
+          "name": "10点/月",
+          "price": 3828,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "capcut_pro",
+      "name": "CapCut Pro",
+      "category": "DESIGN",
+      "domain": "capcut.com",
+      "packageName": "com.lemon.lvoverseas",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 1100,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "davinci_resolve",
+      "name": "DaVinci Resolve Studio",
+      "category": "DESIGN",
+      "domain": "blackmagicdesign.com",
+      "plans": [
+        {
+          "name": "買い切り(参考)",
+          "price": 51980,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "envato_elements",
+      "name": "Envato Elements",
+      "category": "DESIGN",
+      "domain": "elements.envato.com",
+      "plans": [
+        {
+          "name": "Core",
+          "price": 1650,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "frame_io",
+      "name": "Frame.io",
+      "category": "DESIGN",
+      "domain": "frame.io",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 1500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "shutterstock",
+      "name": "Shutterstock",
+      "category": "DESIGN",
+      "domain": "shutterstock.com",
+      "plans": [
+        {
+          "name": "10画像/月",
+          "price": 3500,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "vsco",
+      "name": "VSCO",
+      "category": "DESIGN",
+      "domain": "vsco.co",
+      "packageName": "com.vsco.cam",
+      "plans": [
+        {
+          "name": "メンバーシップ(年額)",
+          "price": 4500,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "webflow",
+      "name": "Webflow",
+      "category": "DESIGN",
+      "domain": "webflow.com",
+      "plans": [
+        {
+          "name": "Basic",
+          "price": 1400,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "ahrefs",
+      "name": "Ahrefs",
+      "category": "BUSINESS",
+      "domain": "ahrefs.com",
+      "plans": [
+        {
+          "name": "Lite",
+          "price": 19900,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "beehiiv",
+      "name": "Beehiiv",
+      "category": "BUSINESS",
+      "domain": "beehiiv.com",
+      "plans": [
+        {
+          "name": "Scale",
+          "price": 4300,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "buffer",
+      "name": "Buffer",
+      "category": "BUSINESS",
+      "domain": "buffer.com",
+      "plans": [
+        {
+          "name": "Essentials",
+          "price": 500,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "hootsuite",
+      "name": "Hootsuite",
+      "category": "BUSINESS",
+      "domain": "hootsuite.com",
+      "plans": [
+        {
+          "name": "Standard",
+          "price": 9900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "intercom",
+      "name": "Intercom",
+      "category": "BUSINESS",
+      "domain": "intercom.com",
+      "plans": [
+        {
+          "name": "Essential",
+          "price": 2900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "kit_convertkit",
+      "name": "Kit (ConvertKit)",
+      "category": "BUSINESS",
+      "domain": "kit.com",
+      "plans": [
+        {
+          "name": "Creator",
+          "price": 3300,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "semrush",
+      "name": "SEMrush",
+      "category": "BUSINESS",
+      "domain": "semrush.com",
+      "plans": [
+        {
+          "name": "SEO",
+          "price": 13900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "zendesk",
+      "name": "Zendesk",
+      "category": "BUSINESS",
+      "domain": "zendesk.com",
+      "plans": [
+        {
+          "name": "Suite Team",
+          "price": 8200,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "jal_card_club_a",
+      "name": "JALカード CLUB-Aカード",
+      "category": "CARD",
+      "domain": "jal.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 11000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "jal_card_club_a_gold",
+      "name": "JALカード CLUB-Aゴールドカード",
+      "category": "CARD",
+      "domain": "jal.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 17600,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "diners_club",
+      "name": "ダイナースクラブカード",
+      "category": "CARD",
+      "domain": "diners.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 29700,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "diners_club_premium",
+      "name": "ダイナースクラブ プレミアム",
+      "category": "CARD",
+      "domain": "diners.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 165000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "hilton_amex",
+      "name": "ヒルトン・オナーズ アメックス",
+      "category": "CARD",
+      "domain": "americanexpress.com",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 16500,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "hilton_amex_premium",
+      "name": "ヒルトン・オナーズ アメックス プレミアム",
+      "category": "CARD",
+      "domain": "americanexpress.com",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 66000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "marriott_bonvoy_amex_normal",
+      "name": "Marriott Bonvoyアメックス",
+      "category": "CARD",
+      "domain": "marriott.com",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 34100,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "luxury_card_gold",
+      "name": "ラグジュアリーカード(ゴールド)",
+      "category": "CARD",
+      "domain": "luxurycard.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 220000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "luxury_card_black",
+      "name": "ラグジュアリーカード(ブラック)",
+      "category": "CARD",
+      "domain": "luxurycard.co.jp",
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 110000,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "sbi_tsumitate_nisa",
+      "name": "SBI証券 つみたてNISA",
+      "category": "FINANCE",
+      "domain": "sbisec.co.jp",
+      "plans": [
+        {
+          "name": "積立額(目安)",
+          "price": 10000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "rakuten_sec_tsumitate_nisa",
+      "name": "楽天証券 つみたてNISA",
+      "category": "FINANCE",
+      "domain": "rakuten-sec.co.jp",
+      "plans": [
+        {
+          "name": "積立額(目安)",
+          "price": 10000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "monex_tsumitate_nisa",
+      "name": "マネックス証券 つみたてNISA",
+      "category": "FINANCE",
+      "domain": "monex.co.jp",
+      "plans": [
+        {
+          "name": "積立額(目安)",
+          "price": 10000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "mufg_esmart_tsumitate_nisa",
+      "name": "三菱UFJ eスマート証券 つみたてNISA",
+      "category": "FINANCE",
+      "domain": "kabu.com",
+      "plans": [
+        {
+          "name": "積立額(目安)",
+          "price": 10000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "moneytree_grow",
+      "name": "Moneytree Grow",
+      "category": "FINANCE",
+      "domain": "moneytree.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 430,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "revolut",
+      "name": "Revolut",
+      "category": "FINANCE",
+      "domain": "revolut.com",
+      "packageName": "com.revolut.revolut",
+      "plans": [
+        {
+          "name": "Premium",
+          "price": 980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "jal_neobank_premium",
+      "name": "JAL NEOBANKプレミアム",
+      "category": "FINANCE",
+      "domain": null,
+      "plans": [
+        {
+          "name": "年会費",
+          "price": 5500,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "bizmates",
+      "name": "Bizmates",
+      "category": "EDUCATION",
+      "domain": "bizmates.jp",
+      "plans": [
+        {
+          "name": "毎日25分",
+          "price": 14850,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "brilliant",
+      "name": "Brilliant",
+      "category": "EDUCATION",
+      "domain": "brilliant.org",
+      "packageName": "org.brilliant.android",
+      "plans": [
+        {
+          "name": "Premium(目安)",
+          "price": 2000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "cambly",
+      "name": "Cambly",
+      "category": "EDUCATION",
+      "domain": "cambly.com",
+      "plans": [
+        {
+          "name": "週3日30分(目安)",
+          "price": 10000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "codecademy",
+      "name": "Codecademy",
+      "category": "EDUCATION",
+      "domain": "codecademy.com",
+      "plans": [
+        {
+          "name": "Pro",
+          "price": 3999,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera",
+      "category": "EDUCATION",
+      "domain": "coursera.org",
+      "packageName": "org.coursera.android",
+      "plans": [
+        {
+          "name": "Plus",
+          "price": 9520,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "Plus(年額)",
+          "price": 64384,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "kimini_eikaiwa",
+      "name": "Kimini英会話",
+      "category": "EDUCATION",
+      "domain": "kimini.online",
+      "plans": [
+        {
+          "name": "スタンダード",
+          "price": 6380,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "linkedin_learning",
+      "name": "LinkedIn Learning",
+      "category": "EDUCATION",
+      "domain": "linkedin.com",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 4000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "masterclass",
+      "name": "MasterClass",
+      "category": "EDUCATION",
+      "domain": "masterclass.com",
+      "plans": [
+        {
+          "name": "Standard(目安)",
+          "price": 1500,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "nova_ochanoma",
+      "name": "NOVAお茶の間留学",
+      "category": "EDUCATION",
+      "domain": "nova.co.jp",
+      "plans": [
+        {
+          "name": "月4回グループ",
+          "price": 11550,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "pluralsight",
+      "name": "Pluralsight",
+      "category": "EDUCATION",
+      "domain": "pluralsight.com",
+      "plans": [
+        {
+          "name": "Core",
+          "price": 4900,
+          "cycle": "MONTHLY",
+          "currency": "USD"
+        }
+      ]
+    },
+    {
+      "id": "skillshare",
+      "name": "Skillshare",
+      "category": "EDUCATION",
+      "domain": "skillshare.com",
+      "packageName": "com.skillshare.Skillshare",
+      "plans": [
+        {
+          "name": "月額(年払い換算)",
+          "price": 2100,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "challenge_touch",
+      "name": "チャレンジタッチ",
+      "category": "EDUCATION",
+      "domain": "benesse.co.jp",
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 3680,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "flier",
+      "name": "flier",
+      "category": "EDUCATION",
+      "domain": "flierinc.com",
+      "plans": [
+        {
+          "name": "ゴールド",
+          "price": 2200,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "apple_fitness_plus",
+      "name": "Apple Fitness+",
+      "category": "LIFE",
+      "domain": "apple.com",
+      "plans": [
+        {
+          "name": "月額",
+          "price": 980,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "年額",
+          "price": 7800,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "asken",
+      "name": "あすけん",
+      "category": "LIFE",
+      "domain": "asken.jp",
+      "plans": [
+        {
+          "name": "プレミアム",
+          "price": 580,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "bumble",
+      "name": "Bumble",
+      "category": "LIFE",
+      "domain": "bumble.com",
+      "packageName": "com.bumble.app",
+      "plans": [
+        {
+          "name": "Premium(目安)",
+          "price": 2600,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "classpass",
+      "name": "ClassPass",
+      "category": "LIFE",
+      "domain": "classpass.com",
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 5000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "clinic_for",
+      "name": "クリニックフォア",
+      "category": "LIFE",
+      "domain": "clinicfor.life",
+      "plans": [
+        {
+          "name": "定期配送(目安)",
+          "price": 3000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "d_value_pass",
+      "name": "dバリューパス",
+      "category": "LIFE",
+      "domain": "docomo.ne.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 550,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "demaecan",
+      "name": "出前館",
+      "category": "LIFE",
+      "domain": "demae-can.com",
+      "plans": [
+        {
+          "name": "クーポンパス(目安)",
+          "price": 550,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "edist_closet",
+      "name": "EDIST. CLOSET",
+      "category": "LIFE",
+      "domain": "edist.jp",
+      "plans": [
+        {
+          "name": "レギュラー",
+          "price": 8690,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "finc_premium",
+      "name": "FiNC Premium",
+      "category": "LIFE",
+      "domain": "finc.com",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 480,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "headspace",
+      "name": "Headspace",
+      "category": "LIFE",
+      "domain": "headspace.com",
+      "packageName": "com.getsomeheadspace.android",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 1950,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "jal_wellness_travel",
+      "name": "JAL Wellness & Travel",
+      "category": "LIFE",
+      "domain": "jal.co.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 550,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "jal_mobile",
+      "name": "JALモバイル",
+      "category": "LIFE",
+      "domain": null,
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "lean_body",
+      "name": "LEAN BODY",
+      "category": "LIFE",
+      "domain": "lean-body.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 2178,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "年額プラン",
+          "price": 11760,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "match_com",
+      "name": "Match.com",
+      "category": "LIFE",
+      "domain": "match.com",
+      "plans": [
+        {
+          "name": "スタンダード(目安)",
+          "price": 4490,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "mederi_pill",
+      "name": "mederi Pill",
+      "category": "LIFE",
+      "domain": "mederi.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 2970,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "my_little_box",
+      "name": "My Little Box",
+      "category": "LIFE",
+      "domain": "mylittlebox.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 3850,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "myfitnesspal",
+      "name": "MyFitnessPal",
+      "category": "LIFE",
+      "domain": "myfitnesspal.com",
+      "packageName": "com.myfitnesspal.android",
+      "plans": [
+        {
+          "name": "Premium",
+          "price": 1300,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "noom",
+      "name": "Noom",
+      "category": "LIFE",
+      "domain": "noom.com",
+      "packageName": "com.wsl.noom",
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 3000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "norel",
+      "name": "NOREL",
+      "category": "LIFE",
+      "domain": "norel.jp",
+      "plans": [
+        {
+          "name": "月額(目安)",
+          "price": 38500,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "omiai",
+      "name": "Omiai",
+      "category": "LIFE",
+      "domain": "omiai-jp.com",
+      "plans": [
+        {
+          "name": "1ヶ月プラン",
+          "price": 3900,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "pairs",
+      "name": "Pairs",
+      "category": "LIFE",
+      "domain": "pairs.lv",
+      "packageName": "jp.eure.android.pairs",
+      "plans": [
+        {
+          "name": "1ヶ月プラン",
+          "price": 4100,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "peloton_app",
+      "name": "Peloton App",
+      "category": "LIFE",
+      "domain": "onepeloton.com",
+      "packageName": "com.onepeloton.callisto",
+      "plans": [
+        {
+          "name": "App One",
+          "price": 1950,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "petokoto_foods",
+      "name": "PETOKOTO FOODS",
+      "category": "LIFE",
+      "domain": "petokoto.com",
+      "plans": [
+        {
+          "name": "定期便(目安)",
+          "price": 5000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "ponta_pass",
+      "name": "Pontaパス",
+      "category": "LIFE",
+      "domain": null,
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 548,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "postcoffee",
+      "name": "PostCoffee",
+      "category": "LIFE",
+      "domain": "postcoffee.co",
+      "plans": [
+        {
+          "name": "定期便",
+          "price": 2180,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "povo",
+      "name": "povo",
+      "category": "LIFE",
+      "domain": "povo.jp",
+      "plans": [
+        {
+          "name": "トッピング(目安)",
+          "price": 2700,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "smaluna",
+      "name": "スマルナ",
+      "category": "LIFE",
+      "domain": "smaluna.com",
+      "plans": [
+        {
+          "name": "定期便(目安)",
+          "price": 2980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "soelu",
+      "name": "SOELU",
+      "category": "LIFE",
+      "domain": "soelu.com",
+      "plans": [
+        {
+          "name": "LITE",
+          "price": 3278,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "PREMIUM",
+          "price": 6578,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "tabelog_premium",
+      "name": "食べログ プレミアム",
+      "category": "LIFE",
+      "domain": "tabelog.com",
+      "packageName": "com.kakaku.tabelog",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 330,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "tapple",
+      "name": "tapple",
+      "category": "LIFE",
+      "domain": "tapple.me",
+      "plans": [
+        {
+          "name": "1ヶ月プラン",
+          "price": 3700,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "tinder",
+      "name": "Tinder",
+      "category": "LIFE",
+      "domain": "tinder.com",
+      "packageName": "com.tinder",
+      "plans": [
+        {
+          "name": "Gold(目安)",
+          "price": 3400,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "uber_one",
+      "name": "Uber One (Eats Pass)",
+      "category": "LIFE",
+      "domain": "uber.com",
+      "packageName": "com.ubercab.eats",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 698,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "年額プラン",
+          "price": 5598,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "with_app",
+      "name": "with",
+      "category": "LIFE",
+      "domain": "with.is",
+      "plans": [
+        {
+          "name": "1ヶ月プラン",
+          "price": 3600,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "amazon_kids_plus",
+      "name": "Amazon Kids+",
+      "category": "OTHER",
+      "domain": "amazon.co.jp",
+      "plans": [
+        {
+          "name": "プライム会員",
+          "price": 480,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "一般",
+          "price": 980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "amazon_family",
+      "name": "Amazonファミリー",
+      "category": "OTHER",
+      "domain": "amazon.co.jp",
+      "plans": [
+        {
+          "name": "プライム特典(無料)",
+          "price": 0,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "book_pass",
+      "name": "ブックパス",
+      "category": "OTHER",
+      "domain": "bookpass.auone.jp",
+      "plans": [
+        {
+          "name": "総合コース",
+          "price": 618,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "book_hodai",
+      "name": "ブック放題",
+      "category": "OTHER",
+      "domain": "bookhodai.jp",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 550,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "comic_cmoa",
+      "name": "コミックシーモア",
+      "category": "OTHER",
+      "domain": "cmoa.jp",
+      "plans": [
+        {
+          "name": "読み放題ライト",
+          "price": 780,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "読み放題フル",
+          "price": 1480,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "ea_play",
+      "name": "EA Play",
+      "category": "OTHER",
+      "domain": "ea.com",
+      "plans": [
+        {
+          "name": "月額プラン",
+          "price": 508,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "年額プラン",
+          "price": 3672,
+          "cycle": "YEARLY"
+        }
+      ]
+    },
+    {
+      "id": "fantia",
+      "name": "Fantia",
+      "category": "OTHER",
+      "domain": "fantia.jp",
+      "plans": [
+        {
+          "name": "支援額(目安)",
+          "price": 500,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "manga_oukoku",
+      "name": "まんが王国",
+      "category": "OTHER",
+      "domain": "comic.k-manga.jp",
+      "plans": [
+        {
+          "name": "月額コース(目安)",
+          "price": 1100,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "mechacomic",
+      "name": "めちゃコミック",
+      "category": "OTHER",
+      "domain": "mechacomic.jp",
+      "plans": [
+        {
+          "name": "月額コース(目安)",
+          "price": 1100,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "piccoma",
+      "name": "ピッコマ",
+      "category": "OTHER",
+      "domain": "piccoma.com",
+      "packageName": "jp.kakao.piccoma",
+      "plans": [
+        {
+          "name": "課金(目安)",
+          "price": 1000,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "pixiv_fanbox",
+      "name": "pixivFANBOX",
+      "category": "OTHER",
+      "domain": "fanbox.cc",
+      "plans": [
+        {
+          "name": "支援額(目安)",
+          "price": 500,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "shonen_magazine",
+      "name": "週刊少年マガジン定期購読",
+      "category": "OTHER",
+      "domain": "kodansha.co.jp",
+      "plans": [
+        {
+          "name": "定期購読",
+          "price": 980,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "category": "OTHER",
+      "domain": "twitch.tv",
+      "packageName": "tv.twitch.android.app",
+      "plans": [
+        {
+          "name": "Turbo",
+          "price": 1800,
+          "cycle": "MONTHLY"
+        },
+        {
+          "name": "チャンネルサブスク(目安)",
+          "price": 700,
+          "cycle": "MONTHLY"
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "Wall Street Journal",
+      "category": "OTHER",
+      "domain": "wsj.com",
+      "packageName": "wsj.reader_sp",
+      "plans": [
+        {
+          "name": "デジタル購読(目安)",
+          "price": 3900,
+          "cycle": "MONTHLY"
+        }
+      ]
+    }
+  ]
+}
