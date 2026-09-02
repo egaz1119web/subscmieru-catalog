@@ -27,13 +27,58 @@ GitHub Pages で静的配信している。アプリ本体のソースは別リ�
 
 ## 更新手順
 
+### 価格改定を反映する（推奨: tools/add_change.py）
+
+既存プランの値上げ・値下げ・改名は `tools/add_change.py` が一括で行う。
+カタログ本体の書き換え・変更履歴の追記・`version` / `updatedAt` の更新・古い履歴の間引きを
+まとめてやるので、「本体だけ直して履歴を忘れた」類の食い違いが起きない。
+
+```bash
+cat > /tmp/changes.json <<'EOF'
+[
+  {
+    "serviceId": "netflix",
+    "plan": "広告つきスタンダード",
+    "new": 990,
+    "source": "https://help.netflix.com/ja/node/24926",
+    "note": "2026-09-01適用"
+  }
+]
+EOF
+
+python3 tools/add_change.py --dry-run --input /tmp/changes.json   # まず確認
+python3 tools/add_change.py --input /tmp/changes.json             # 反映
+python3 tools/validate.py
+```
+
+入力に書くのは **`serviceId` / `plan` / `new` / `source` の4つだけ**。
+`serviceName` `category` `domain` `currency` `cycle` `old` `kind` はカタログ本体から
+自動で埋まる。手で書くと食い違いの元になるので書かない。
+
+- `new` は最小単位（円はそのまま、USDはセント。$20.00 → `2000`）
+- プラン名が変わったときは `newPlan` を足す（`PLAN_RENAMED` になる）
+- `source` は公式の料金ページ。配信JSONには入らず、PR説明文にだけ使う
+- `--report path.md` でPR説明文をファイルに書き出せる（省略時は標準出力）
+
+**プラン追加・提供終了・サービス改名は対象外。** 影響範囲が違うので下記の手作業で行う。
+
+### 手作業で更新する
+
 1. `v1/subscription_services.json` の価格を修正する
-2. 修正内容を `v1/catalog_changes.json` の `changes` に追記する（アプリの「変更のお知らせ」に出る）
+2. 修正内容を `v1/catalog_changes.json` の `changes` の先頭に追記する（`since` に当日の日付を入れる）
 3. **両ファイルの `version` を同じ値にインクリメントし、`updatedAt` を当日の日付にする**
 4. `python3 tools/validate.py` が通ることを確認する
 5. commit & push（数分でPagesに反映される）
 
 `version` を上げ忘れると、アプリ側の「未読の変更あり」バッジが立たない。
+
+### 変更履歴の保持期間
+
+`changes` は「そのバージョンで変わったもの」ではなく蓄積で、各エントリの `since`（追記日）を
+基準に既定180日で間引く。まだ反映していない利用者が「ワンタップ反映」の機会を失わないように
+一定期間残し、かつ「最近の変更内容」が古びないようにするための折衷。
+`since` を持たない初期エントリは 2026-08-29 追記とみなす。
+アプリは未知のフィールドを無視するので `since` を足しても後方互換。
 
 ## スキーマ
 
