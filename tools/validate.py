@@ -63,9 +63,14 @@ def main() -> int:
     check_header(catalog, CATALOG.name)
     check_header(changes, CHANGES.name)
 
-    if catalog.get("version") != changes.get("version"):
-        err(f"version が食い違っている: "
-            f"{CATALOG.name}={catalog.get('version')} / {CHANGES.name}={changes.get('version')}")
+    # changes の version はアプリの「変更のお知らせ」の世代そのもの。
+    # 上げると、前回確認済みより新しいという理由だけで全ユーザーにダイアログが出る。
+    # だから告知すべき変更が無い更新(packageName の修正など)では据え置き、
+    # カタログ側だけ進める。追い越しはデータの不整合なので弾く。
+    cv, hv = catalog.get("version"), changes.get("version")
+    if isinstance(cv, int) and isinstance(hv, int) and hv > cv:
+        err(f"{CHANGES.name} の version が {CATALOG.name} を追い越している: "
+            f"{CATALOG.name}={cv} / {CHANGES.name}={hv}")
 
     # --- services ---
     services = catalog.get("services")

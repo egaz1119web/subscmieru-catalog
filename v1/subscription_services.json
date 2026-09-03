@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 6,
-  "updatedAt": "2026-08-29",
+  "version": 7,
+  "updatedAt": "2026-09-03",
   "services": [
     {
       "id": "netflix",
@@ -75,7 +75,7 @@
       "name": "U-NEXT",
       "category": "VIDEO",
       "domain": "video.unext.jp",
-      "packageName": "jp.unext",
+      "packageName": "jp.unext.mediaplayer",
       "plans": [
         {
           "name": "月額プラン",
@@ -218,7 +218,7 @@
       "name": "dアニメストア",
       "category": "VIDEO",
       "domain": "animestore.docomo.ne.jp",
-      "packageName": "com.nttdocomo.android.danimestore",
+      "packageName": "com.nttdocomo.android.danimeapp",
       "plans": [
         {
           "name": "月額プラン",
@@ -245,7 +245,7 @@
       "name": "Lemino",
       "category": "VIDEO",
       "domain": "lemino.docomo.ne.jp",
-      "packageName": "com.nttdocomo.android.lemino",
+      "packageName": "jp.ne.docomo.lemino.android",
       "plans": [
         {
           "name": "プレミアム",
@@ -1784,7 +1784,7 @@
       "name": "dマガジン",
       "category": "OTHER",
       "domain": "dmagazine.docomo.ne.jp",
-      "packageName": "com.nttdocomo.android.dmagazine",
+      "packageName": "com.nttdocomo.dmagazine",
       "plans": [
         {
           "name": "月額プラン",
@@ -1933,7 +1933,7 @@
       "name": "FODプレミアム",
       "category": "VIDEO",
       "domain": "fod.fujitv.co.jp",
-      "packageName": "jp.co.fujitv.fodviewer",
+      "packageName": "air.jp.co.fujitv.fodviewer",
       "plans": [
         {
           "name": "スタンダードコース",
@@ -3510,6 +3510,7 @@
       "name": "pCloud",
       "category": "STORAGE",
       "domain": "pcloud.com",
+      "packageName": "com.pcloud.pcloud",
       "plans": [
         {
           "name": "Premium 500GB(年額)",
@@ -4053,6 +4054,7 @@
       "name": "Moneytree Grow",
       "category": "FINANCE",
       "domain": "moneytree.jp",
+      "packageName": "jp.moneytree.moneytree",
       "plans": [
         {
           "name": "月額プラン",
@@ -4587,6 +4589,7 @@
       "name": "Pontaパス",
       "category": "LIFE",
       "domain": null,
+      "packageName": "jp.ponta.myponta",
       "plans": [
         {
           "name": "月額プラン",
