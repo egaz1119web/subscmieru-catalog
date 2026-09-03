@@ -72,6 +72,20 @@ python3 tools/validate.py
 
 `version` を上げ忘れると、アプリ側の「未読の変更あり」バッジが立たない。
 
+### version は2つ別々に考える
+
+`catalog_changes.json` の `version` は、アプリの「料金データを更新しました」ダイアログの
+世代そのもの。アプリは *前回確認済みより大きいかどうか* だけを見て出すので、
+**中身が同じでも上げれば全ユーザーにダイアログが出る。**
+
+だから値上げ以外の更新（`packageName` の修正、`domain` の補完、サービスの説明直しなど、
+利用者に知らせることが無いもの）では `catalog_changes.json` は据え置き、
+`subscription_services.json` の `version` / `updatedAt` だけを進める。
+`validate.py` は「changes が catalog を追い越していないこと」だけを見る。
+
+設定画面の「◯年◯月時点の概算」は `subscription_services.json` の `updatedAt` を読むので、
+据え置いても表示は最新の日付になる。
+
 ### 変更履歴の保持期間
 
 `changes` は「そのバージョンで変わったもの」ではなく蓄積で、各エントリの `since`（追記日）を
@@ -87,8 +101,8 @@ python3 tools/validate.py
 ```jsonc
 {
   "schemaVersion": 1,
-  "version": 6,                    // 更新のたびにインクリメント
-  "updatedAt": "2026-08-29",       // ISO-8601 (YYYY-MM-DD)
+  "version": 7,                    // 更新のたびにインクリメント
+  "updatedAt": "2026-09-03",       // ISO-8601 (YYYY-MM-DD)
   "services": [
     {
       "id": "netflix",             // 一意。変更すると登録済みユーザーとの紐付けが切れる
@@ -114,7 +128,7 @@ python3 tools/validate.py
 ```jsonc
 {
   "schemaVersion": 1,
-  "version": 6,                    // subscription_services.json と揃える
+  "version": 6,                    // お知らせの世代。告知が要る更新のときだけ上げる
   "updatedAt": "2026-08-29",
   "changes": [
     {
