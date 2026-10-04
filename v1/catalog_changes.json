@@ -1,8 +1,23 @@
 {
   "schemaVersion": 1,
-  "version": 6,
-  "updatedAt": "2026-08-29",
+  "version": 8,
+  "updatedAt": "2026-10-04",
   "changes": [
+    {
+      "serviceId": "hulu",
+      "kind": "PRICE_UP",
+      "plan": "月額プラン",
+      "old": 1026,
+      "new": 1320,
+      "oldCurrency": "JPY",
+      "currency": "JPY",
+      "oldCycle": "MONTHLY",
+      "cycle": "MONTHLY",
+      "serviceName": "Hulu",
+      "category": "VIDEO",
+      "domain": "hulu.jp",
+      "since": "2026-10-04"
+    },
     {
       "serviceId": "elevenlabs",
       "kind": "PRICE_UP",

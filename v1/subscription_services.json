@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 7,
-  "updatedAt": "2026-09-03",
+  "version": 8,
+  "updatedAt": "2026-10-04",
   "services": [
     {
       "id": "netflix",
@@ -93,7 +93,7 @@
       "plans": [
         {
           "name": "月額プラン",
-          "price": 1026,
+          "price": 1320,
           "cycle": "MONTHLY"
         }
       ]
