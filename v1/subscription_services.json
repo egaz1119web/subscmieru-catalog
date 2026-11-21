@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 8,
-  "updatedAt": "2026-10-04",
+  "version": 9,
+  "updatedAt": "2026-11-21",
   "services": [
     {
       "id": "netflix",
@@ -12,17 +12,17 @@
       "plans": [
         {
           "name": "広告つきスタンダード",
-          "price": 890,
+          "price": 990,
           "cycle": "MONTHLY"
         },
         {
           "name": "スタンダード",
-          "price": 1590,
+          "price": 1790,
           "cycle": "MONTHLY"
         },
         {
           "name": "プレミアム",
-          "price": 2290,
+          "price": 2590,
           "cycle": "MONTHLY"
         }
       ]
